@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Create an Account</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
     <main class="main">
         <section class="section">
@@ -15,7 +17,7 @@
 
                     <div class="form__item col-1">
                         <label class="label">
-                            <span class="label__name" >First name</span>
+                            <span class="label__name">First name</span>
                             <input class="input" type="text" name="first_name">
                         </label>
                     </div>
@@ -66,18 +68,18 @@
                     </div>
 
                     <div class="form__item col-2">
-                        <button class="btn btn__full" type="submit" >Sign Up</button>
+                        <button class="btn btn__full" type="submit">Sign Up</button>
                     </div>
-                    
+
                     <div class="privacy-policy col-2">
                         <p class="privacy-policy">By clicking the 'Sign Up' button, you confirm that you accept our </p>
-                        <a href="#">Terms of Use</a> 
+                        <a href="#">Terms of Use</a>
                         <span>and</span>
                         <a href="#">Privacy Policy</a>
                     </div>
 
                     <div class="form__footer col-2">
-                        <p>Have an account? <a href="#">Log In</a></p> 
+                        <p>Have an account? <a href="#">Log In</a></p>
                     </div>
 
                 </form>
@@ -92,13 +94,19 @@
                             <img src="./img/foto.png" alt="foto">
                         </div>
                         <div>
-                            <input class="input" type="file" name="foto">
+                            <label class="file-upload">
+                                <input type="file" class="file-input">
+                                <span class="icon"></span>
+                            </label>
                             <span class="field-note">Up to 1 MB (300x300 px)</span>
                         </div>
+
                     </div>
 
-                    <div class="form__item col-1">
-                        <button></button>
+                    <div class="del-btn__wrapper col-1">
+                        <button class="del-btn">
+                            <img src="./img/del-icon.svg" alt="">
+                        </button>
                     </div>
 
                     <div class="form__item col-1">
@@ -149,7 +157,7 @@
                     </div>
 
                     <div class="btn_wrapper col-2">
-                        <button class="btn btn__min" type="submit" >Sign Up</button>
+                        <button class="btn btn__min" type="submit">Sign Up</button>
                     </div>
 
                 </form>
@@ -157,4 +165,5 @@
         </section>
     </main>
 </body>
+
 </html>
